@@ -50,27 +50,3 @@ and the interrupt-controller hardware.
 	- maskable interrupt: It can be turned off by the CPU before the execution of critical instruction sequences that must not be interrupted
 	
 	The maskable interrupt is used by device controllers to request service.
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
