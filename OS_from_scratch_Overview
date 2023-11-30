@@ -1,0 +1,74 @@
+==> Overview
+
+* An Operating system is software that manages a computer's hardware.
+
+* It also provides a bases for application programs and acts as an intermediary between the computer used and the computer hardware.
+
+==> What Operating Systems Do
+
+ A computer system can be divided roughly in four components:
+ 	- the hardware
+ 	- the operating system
+ 	- the application programs
+ 	- a User
+ 	
+Hardware - the central processing unit (CPU)
+	   the memory
+	   the input/output(I/O) devices
+																																																															application programs - such as word processors
+		        spreadsheets
+		        compilers
+		        web browsers
+		        
+* Exploring OS from two viewpoints:
+			- From the user perspective
+			- From the system perspective
+			
+	-> User View: User with a laptop or in front of a PC consisting monitor, keyboard and mouse. Such a syustem is designed for one user to monopolize its resources.
+	The goal is to maximize the work(or play) that the user is performing.
+	Designed for ease os use, with some attention paid to performance and security and none paid to resource utilization - how various hardware and softwware resources are shared.
+	
+	-> System View:
+		- From the computer's point of view, the operating system is the program most intimately involved with the hardware. In this context, we can view an operating system as a "resource allocator". 	
+		- A computer system has many resources that may be required to solve a problem: CPU time, memory spacce, storage space, I/O devices, and so on.
+		
+		- A control program manages the execution of user programs to prevent errors and improper use of the computer. It is espcially concerned with the operation and control of I/O devices 			   																																	
+	
+==> Computer-System Organization	
+	- A modern general-purpose computer system consists of one or more CPUs and a number of device controller connected through a common bus that provides access between components and shared memory. Each device controller is in charge of a specific type of device (for example, a disk drive, audio device, or graphics display)
+	
+	- Depending on the controller, more than one device may be attached. For instance, one system USB port can connect to a USB hub, to which several devices can connect
+	
+	- A device controller maintains some local buffer storage and a set of special-purpose registers
+
+	- The device controller is responsible for moving the data between the peripheral devices that it controls and its local buffer storage
+	
+	- Typically, operating systems have a device driver for each device controller. This device driver understands the device controller and provides the operating system with a uniform interface to the device.
+	- The CPU and the device controllers can execute in parallel, competing for memory cycles. To ensure orderly access to the shared memory, a memory controller synchronizes access to memory
+	- 3 key aspects of the system: 1] Interrupts (which alert the CPU to events that require attention)
+				       2] Storage structure
+				       3] I/O structure  
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  																													
+																																																																
